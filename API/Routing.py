@@ -6,4 +6,5 @@ router = DefaultRouter()
 router.register(r'mymodels',mymodelviewset)
 urlpatterns = [
     path('api/', include(router.urls)),
+    
 ]

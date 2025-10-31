@@ -8,3 +8,9 @@ class myAPIview(APIView):
     permission_classes = [IsAuthenticated]
     def get(self, request):
         return Response({'message':'hello, authenticated'})
+    
+INSTALLED_APPS = [
+    ...
+    'rest_framework',
+    'rest_framework.authtoken',
+]

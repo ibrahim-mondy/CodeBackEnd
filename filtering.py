@@ -53,4 +53,3 @@ from .views import PurchaseList
 urlpatterns = [
     path('purchases/', PurchaseList.as_view(), name='purchase-list'),
 ]
-
